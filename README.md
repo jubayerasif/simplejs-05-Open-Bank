@@ -1,3 +1,3 @@
 #Open-Bank
 
-I tried to make functional Bank with JavaScript# Open-Bank
+I tried to make a simple functional Bank with JavaScript
