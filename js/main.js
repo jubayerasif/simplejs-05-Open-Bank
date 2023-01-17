@@ -1,4 +1,5 @@
-const loginBtn = document.getElementById('login-btn');
-loginBtn.addEventListener('click', function(event){
+const loginBtn = document.getElementById('login-btn').addEventListener('click', function(event){
     console.log("clicked me");
 })
+
+document.getElementById('login-area')
