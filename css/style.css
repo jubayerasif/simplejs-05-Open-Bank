@@ -1,7 +1,7 @@
 body{
     padding: 100px;
 }
-#login-area{
+#login-area, .payment-area{
     margin-top: 50px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -13,17 +13,17 @@ body{
 }
 #transaction-area{
     display: none;
-    color: white
 }
 .status{
     margin: 0 20px;
     color: #fff;
-    padding: 10px 25px;
+    padding: 20px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    margin-bottom: 25px;
 }
 .deposit{
     background: rgb(106, 91, 206);
@@ -37,6 +37,7 @@ body{
 
 
 @media only screen and (min-width: 600px) {
+
 
 }
 
