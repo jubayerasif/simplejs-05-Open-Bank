@@ -14,6 +14,15 @@ body{
 #transaction-area{
     display: none;
 }
+.deposit{
+
+}
+.withdraw{
+
+}
+.balance{
+    
+}
 
 
 /* @media only screen and (min-width: 600px) {
