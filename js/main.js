@@ -6,8 +6,9 @@ const loginBtn = document.getElementById('login-btn').addEventListener('click', 
 
 //deposit btn event handler
 const depositBtn = document.getElementById('addDeposit').addEventListener('click', function(){
-    const depositedAmount = document.getElementById('depositedAmount').value;
-    const depositNumber = parseFloat(depositedAmount);
+    // const depositedAmount = document.getElementById('depositedAmount').value;
+    // const depositNumber = parseFloat(depositedAmount);
+    const depositNumber = getInputNumber('depositedAmount')
 
     // const currentDeposit = document.getElementById('currentDeposit').innerHTML;
     // const currentDepositNumber = parseFloat(currentDeposit);
