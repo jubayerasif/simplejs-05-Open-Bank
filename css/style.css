@@ -13,15 +13,16 @@ body{
 }
 #transaction-area{
     display: none;
+    color: white
 }
 .deposit{
-
+    background: ;
 }
 .withdraw{
 
 }
-.balance{
-    
+.balanced{
+    background: orange;
 }
 
 
