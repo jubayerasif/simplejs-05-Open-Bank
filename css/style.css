@@ -15,20 +15,31 @@ body{
     display: none;
     color: white
 }
+.status{
+    margin: 0 20px;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
 .deposit{
-    background: ;
+    background: rgb(106, 91, 206);
 }
 .withdraw{
-
+    background: rgb(238, 147, 112);
 }
 .balanced{
-    background: orange;
+    background: rgb(246, 161, 4);
 }
 
 
-/* @media only screen and (min-width: 600px) {
-  }
- */
+@media only screen and (min-width: 600px) {
+
+}
+
 
 
 
