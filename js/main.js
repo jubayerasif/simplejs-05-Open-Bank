@@ -38,7 +38,3 @@ function updateSpanText(id, addedNumber){
     const totalAmount = addedNumber + currentNumber;
     document.getElementById(id).innerText = totalAmount;
 }
-
-
-
-// transaction-area

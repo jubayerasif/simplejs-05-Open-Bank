@@ -1,7 +1,9 @@
-body{
+body
+{
     padding: 100px;
 }
-#login-area, .payment-area{
+#login-area, .payment-area
+{
     margin-top: 50px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -11,10 +13,12 @@ body{
     box-shadow: 5px 5px 10px  gray;
     padding: 35px;
 }
-#transaction-area{
+#transaction-area
+{
     display: none;
 }
-.status{
+.status
+{
     margin: 0 20px;
     color: #fff;
     padding: 20px;
@@ -25,25 +29,17 @@ body{
     -o-border-radius: 10px;
     margin-bottom: 25px;
 }
-.deposit{
+.deposit
+{
     background: rgb(106, 91, 206);
 }
-.withdraw{
+.withdraw
+{
     background: rgb(238, 147, 112);
 }
-.balanced{
+.balanced
+{
     background: rgb(246, 161, 4);
 }
 
-
-@media only screen and (min-width: 600px) {
-
-
-}
-
-
-
-
-
-
-
+/* 1/20/2023 */
