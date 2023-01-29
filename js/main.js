@@ -7,15 +7,22 @@ const loginBtn = document.getElementById('login-btn').addEventListener('click', 
 //deposit btn event handler
 const depositBtn = document.getElementById('addDeposit').addEventListener('click', function(){
     const depositNumber = getInputNumber('depositAmount');
+
+    if(depositNumber < 0){
+        alert(`Deposit Number Cannot Be Negative`);
+    }
+    else{
+        updateSpanText('currentDeposit', depositNumber);
+        updateSpanText('currentBalance', depositNumber);
+        document.getElementById('depositAmount').value= "";
+    }
     // const depositAmount = document.getElementById('depositAmount').value;
     // const depositNumber = parseFloat(depositAmount);
     // const currentDeposit = document.getElementById('currentDeposit').innerHTML;
     // const currentDepositNumber = parseFloat(currentDeposit);
     // const totalDeposit = depositNumber + currentDepositNumber;
     // document.getElementById('currentDeposit').innerHTML = totalDeposit;
-    updateSpanText('currentDeposit', depositNumber);
-    updateSpanText('currentBalance', depositNumber);
-    document.getElementById('depositAmount').value= "";
+
 })
 
 //withdraw button event handler
